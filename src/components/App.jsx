@@ -1,8 +1,10 @@
 import React from 'react'
+import Header from './header.jsx'
 
-const App = () => (
+const App = ({ name }) => (
   <div>
-    Hello すごいWorld!!
+    <Header />
+    Hello {name}
   </div>
 )
 

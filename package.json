@@ -11,6 +11,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "jsx",
+      "json"
+    ]
+  },
   "dependencies": {
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
